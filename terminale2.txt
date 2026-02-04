@@ -1,25 +1,3 @@
-$ cd service-status-maintenance
-
-franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
-$ git add .
-
-franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
-$ git commit -m "creazione e aggiunta status.php"
-[main (root-commit) 11cd726] creazione e aggiunta status.php
- 1 file changed, 14 insertions(+)
- create mode 100644 status.php
-
-franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
-$ git push
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 413 bytes | 206.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-To https://github.com/kappy107/service-status-maintenance.git
- * [new branch]      main -> main
-
 franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
 $ git branch
 * main
@@ -105,5 +83,3 @@ Fast-forward
  1 file changed, 14 insertions(+)
  create mode 100644 README.md
 
-franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
-$
