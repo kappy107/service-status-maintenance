@@ -1,0 +1,109 @@
+$ cd service-status-maintenance
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
+$ git add .
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
+$ git commit -m "creazione e aggiunta status.php"
+[main (root-commit) 11cd726] creazione e aggiunta status.php
+ 1 file changed, 14 insertions(+)
+ create mode 100644 status.php
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 413 bytes | 206.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kappy107/service-status-maintenance.git
+ * [new branch]      main -> main
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
+$ git branch
+* main
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
+$ git branch feat/status_php
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
+$ git branch
+  feat/status_php
+* main
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
+$ git checkout feat/status_php
+Switched to branch 'feat/status_php'
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (feat/status_php)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
+$ git merge feat/Status_php
+Already up to date.
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
+$ git checkout feat/status_php
+Switched to branch 'feat/status_php'
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (feat/status_php)
+$ git add .
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (feat/status_php)
+$ git commit -m "aggiunta documentazione file README.md"
+[feat/status_php 8c342f6] aggiunta documentazione file README.md
+ 1 file changed, 14 insertions(+)
+ create mode 100644 README.md
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (feat/status_php)
+$ git push
+fatal: The current branch feat/status_php has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feat/status_php
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (feat/status_php)
+$ git push --set-upstream origin feat/status_php
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 475 bytes | 475.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'feat/status_php' on GitHub by visiting:
+remote:      https://github.com/kappy107/service-status-maintenance/pull/new/feat/status_php
+remote:
+To https://github.com/kappy107/service-status-maintenance.git
+ * [new branch]      feat/status_php -> feat/status_php
+branch 'feat/status_php' set up to track 'origin/feat/status_php'.
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (feat/status_php)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
+$ git merge feat/status_php
+Updating 11cd726..8c342f6
+Fast-forward
+ README.md | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+ create mode 100644 README.md
+
+franc@kaPC MINGW64 ~/desktop/service-status-maintenance (main)
+$

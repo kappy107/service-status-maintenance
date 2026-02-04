@@ -1,0 +1,5 @@
+PS C:\Users\franc\Desktop\service-status-maintenance> php status.php
+Servizio demo: pronto
+PS C:\Users\franc\Desktop\service-status-maintenance> php status.php database
+Servizio database: pronto
+PS C:\Users\franc\Desktop\service-status-maintenance> 
